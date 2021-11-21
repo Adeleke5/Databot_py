@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Block_Out') {
+            steps {
+                echo 'initiating sequence'
+            }
+        }
+        stage('Engine Hot') {
+            steps {
+                echo 'All engines running'
+            }
+        }
+        stage('Lift Off') {
+            steps {
+                echo 'We are up and running'
+            }
+        }
+    }
+}
