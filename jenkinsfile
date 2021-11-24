@@ -15,6 +15,7 @@ pipeline {
         stage('Lift Off') {
             steps {
                 echo 'We are up and running'
+                echo 'Adding groovy in abit...'
             }
         }
     }
